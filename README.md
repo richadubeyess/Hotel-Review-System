@@ -77,6 +77,4 @@ cd SpringBoot-Microservices
 4. Start the API Gateway.
 5. Test the REST endpoints using Postman.
 
-Keep credentials and secrets in environment variables rather than committing them to GitHub.
-
 
