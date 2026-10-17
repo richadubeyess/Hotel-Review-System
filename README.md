@@ -1,5 +1,4 @@
 # Hotel-Review-System
-# Spring Boot Microservices Backend
 
 A backend application built using Java, Spring Boot, and Spring Cloud to manage users, hotels, and ratings through independent microservices. The project demonstrates service discovery, centralized configuration, API routing, REST-based inter-service communication, load balancing, and fault tolerance.
 
@@ -40,7 +39,7 @@ The application consists of the following components:
 - Integrated Spring Cloud LoadBalancer for client-side load balancing.
 - Implemented Resilience4j Circuit Breaker for handling service failures.
 - Integrated Okta with Spring Security for OAuth 2.0 authentication.
-- Used PostgreSQL,MySQL and MongoDB for data persistence, according to service configuration.
+- Used PostgreSQL, MySQL and MongoDB for data persistence, according to service configuration.
 
 ## Project Structure
 
@@ -58,9 +57,9 @@ SpringBoot-Microservices/
 
 ### Prerequisites
 
-- Java version compatible with the project
+- Java 17
 - Maven
-- PostgreSQL, MySQL and MongoDB, as required by each service
+- PostgreSQL, MySQL, and MongoDB, as required by each service
 - Git
 
 ### Clone the repository
@@ -80,14 +79,4 @@ cd SpringBoot-Microservices
 
 Keep credentials and secrets in environment variables rather than committing them to GitHub.
 
-## Concepts Demonstrated
-
-- Microservices architecture
-- REST API development
-- Service discovery and centralized configuration
-- Synchronous inter-service communication with `RestTemplate`
-- Client-side load balancing
-- Circuit Breaker pattern and fault tolerance
-- OAuth 2.0 authentication integration
-- Relational and NoSQL database integration
 
